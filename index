@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Store | Practical Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">TechStore</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">🛒 Cart</div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Future Tech is Here</h1>
+            <p>Grab the latest gadgets at student prices.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="container">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            
+            <article class="card">
+                <div class="img-placeholder">Image 1</div>
+                <h3>Wireless Headphones</h3>
+                <p class="price">$199.00</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="card">
+                <div class="img-placeholder">Image 2</div>
+                <h3>Smart Watch</h3>
+                <p class="price">$249.00</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="card">
+                <div class="img-placeholder">Image 3</div>
+                <h3>Gaming Mouse</h3>
+                <p class="price">$59.00</p>
+                <button>Add to Cart</button>
+            </article>
+
+            <article class="card">
+                <div class="img-placeholder">Image 4</div>
+                <h3>Mechanical Keyboard</h3>
+                <p class="price">$120.00</p>
+                <button>Add to Cart</button>
+            </article>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechStore. Created for College Practical.</p>
+    </footer>
+
+</body>
+</html>
